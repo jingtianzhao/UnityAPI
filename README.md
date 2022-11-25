@@ -2,7 +2,10 @@
 
 ## SmoothDamp
 Use this API for object smooth move ，but it will moving not according in line some times.
-
+resource code
+the x position
+-0.62 -> -0.69 Problem
+-0.69 -> -0.69 Right
 ```cs
             smoothTime = Max(0.0001f, smoothTime);
             float num = 2f / smoothTime;
